@@ -21,3 +21,5 @@ function wrapAdjective(adjective){
     return specialChar
  }
  wrapAdjective('*')
+
+//  console.log( wrapAdjective('*'))
