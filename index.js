@@ -17,6 +17,9 @@ function mondayWork(activityyy = 'go to the office'){
 function wrapAdjective(adjective){
     function special(receive){
         // return `You are ${adjective}${receive}${adjective}!`
+
+        // same as 
+        
         return `You are `+ adjective + receive + adjective+"!"
     }
     return special
