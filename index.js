@@ -15,11 +15,11 @@ function mondayWork(activityyy = 'go to the office'){
 
 // }
 function wrapAdjective(adjective){
-    const specialChar=function(char){
-        return `You are ${adjective}${char}${adjective}!`
+    function special(receive){
+        // return `You are ${adjective}${receive}${adjective}!`
+        return `You are `+ adjective + receive + adjective+"!"
     }
-    return specialChar
+    return special
  }
  wrapAdjective('*')
 
-//  console.log( wrapAdjective('*'))
